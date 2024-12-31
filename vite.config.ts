@@ -5,7 +5,7 @@ import { resolve } from 'path'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
-  base: '/vue-vite-windows-icon/',
+  base: './',
   resolve: {
     alias: {
       '@': resolve(__dirname, 'src')
@@ -18,7 +18,7 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: {
-          'vendor': ['vue', 'vue-router', 'element-plus']
+          'vendor': ['vue', 'vue-router']
         }
       }
     }

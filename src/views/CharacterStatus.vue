@@ -93,10 +93,10 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import bartzImg from '../assets/characters/bartz.jpg'
-import lennaImg from '../assets/characters/lenna.jpg'
-import galufImg from '../assets/characters/galuf.jpg'
-import farisImg from '../assets/characters/faris.jpg'
+import bartzImg from '@/assets/characters/bartz.jpg'
+import lennaImg from '@/assets/characters/lenna.jpg'
+import galufImg from '@/assets/characters/galuf.jpg'
+import farisImg from '@/assets/characters/faris.jpg'
 
 interface CharacterStats {
   strength: number
